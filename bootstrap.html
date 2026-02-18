@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Portfolio – Mohanasri S</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+.hero{
+    background: linear-gradient(120deg,#3498db,#8e44ad);
+    color:white;
+    padding:80px 0;
+}
+.section-title{
+    border-left:5px solid #6c63ff;
+    padding-left:10px;
+}
+</style>
+</head>
+
+<body class="bg-light">
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand fw-bold">Mohanasri S</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse justify-content-end" id="menu">
+<ul class="navbar-nav gap-3">
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+<li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- HERO -->
+<section class="hero text-center">
+<div class="container">
+<h1 class="display-4 fw-bold">Mohanasri S</h1>
+<p class="lead">CSE Student • Future Software Developer</p>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="container my-5">
+<h3 class="section-title mb-4">About Me</h3>
+
+<div class="card shadow p-4">
+<p>
+I am a passionate Computer Science and Engineering student interested in software development, web technologies, and innovation. I continuously improve my skills through projects and learning.
+</p>
+
+<h5>Career Objective</h5>
+<p>
+To become a professional software engineer and contribute to building impactful technology solutions.
+</p>
+
+<h5>Hobbies</h5>
+<ul>
+<li>Reading tech blogs</li>
+<li>Coding practice</li>
+<li>Learning new technologies</li>
+</ul>
+</div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="container my-5">
+<h3 class="section-title mb-4">Technical Skills</h3>
+
+<div class="row">
+
+<div class="col-md-4">
+<div class="card shadow p-3">
+<h5>HTML</h5>
+<div class="progress">
+<div class="progress-bar bg-success" style="width:90%">90%</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow p-3">
+<h5>Java</h5>
+<div class="progress">
+<div class="progress-bar bg-info" style="width:85%">85%</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow p-3">
+<h5>Python</h5>
+<div class="progress">
+<div class="progress-bar bg-warning" style="width:80%">80%</div>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="container my-5">
+<h3 class="section-title mb-4">Academic Records</h3>
+
+<div class="card shadow p-4">
+<table class="table table-hover text-center">
+<thead class="table-primary">
+<tr>
+<th>Subject</th>
+<th>Marks</th>
+<th>Grade</th>
+</tr>
+</thead>
+
+<tr><td>Data Structures</td><td>88</td><td>A</td></tr>
+<tr><td>Computer Networks</td><td>84</td><td>A</td></tr>
+<tr><td>Database Systems</td><td>91</td><td>O</td></tr>
+<tr><td>Software Engineering</td><td>86</td><td>A</td></tr>
+</table>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="container my-5">
+<h3 class="section-title mb-4">Contact Me</h3>
+
+<div class="card shadow p-4">
+<form>
+<input class="form-control mb-3" placeholder="Full Name">
+<input class="form-control mb-3" placeholder="Email">
+<select class="form-select mb-3">
+<option>Select Contact Method</option>
+<option>Email</option>
+<option>Phone</option>
+<option>Social Media</option>
+</select>
+
+<button class="btn btn-primary w-100">Send Message</button>
+</form>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center p-3">
+<p class="mb-0">© 2026 Mohanasri S</p>
+</footer>
+
+<script >
+    console.log("===== SECTION 1 =====");
+
+// Variables
+let myName = "Mohanasri";
+let myAge = 20;
+let isStudent = true;
+
+console.log(myName, myAge, isStudent);
+
+// Swap without third variable
+let a = 10, b = 5;
+a = a + b;
+b = a - b;
+a = a - b;
+console.log("Swap:", a, b);
+
+// Copy example
+let x = 10;
+let y = x;
+y = 20;
+console.log("Output of x:", x);
+
+// const example
+const pi = 3.14;
+const radius = 5;
+const area = pi * radius * radius;
+console.log("Area:", area);
+
+
+console.log("===== SECTION 2 =====");
+
+// Arithmetic
+let n1 = 20, n2 = 4;
+console.log("Sum:", n1 + n2);
+console.log("Diff:", n1 - n2);
+console.log("Product:", n1 * n2);
+console.log("Division:", n1 / n2);
+console.log("Remainder:", n1 % n2);
+
+// Type conversion outputs
+console.log(5 + "5");
+console.log(5 - "2");
+console.log(true + 1);
+
+// Comparison
+let num = 120;
+if (num > 100) console.log("Greater than 100");
+else if (num == 100) console.log("Equal to 100");
+else console.log("Less than 100");
+
+// == vs ===
+console.log(5 == "5");
+console.log(5 === "5");
+
+// Logical operator
+let age = 25;
+if (age >= 18 && age <= 60)
+    console.log("Eligible");
+else
+    console.log("Not Eligible");
+
+
+console.log("===== SECTION 3 =====");
+
+// Even or odd
+let number = 7;
+if (number % 2 === 0) console.log("Even");
+else console.log("Odd");
+
+// FizzBuzz
+let fb = 15;
+if (fb % 3 === 0 && fb % 5 === 0) console.log("FizzBuzz");
+else if (fb % 3 === 0) console.log("Fizz");
+else if (fb % 5 === 0) console.log("Buzz");
+
+// Switch day
+let day = 3;
+switch(day){
+    case 1: console.log("Monday"); break;
+    case 2: console.log("Tuesday"); break;
+    case 3: console.log("Wednesday"); break;
+    case 4: console.log("Thursday"); break;
+    case 5: console.log("Friday"); break;
+    case 6: console.log("Saturday"); break;
+    case 7: console.log("Sunday"); break;
+}
+
+// For loop
+for(let i=1;i<=20;i++){
+    console.log(i);
+}
+
+// Even numbers
+for(let i=1;i<=20;i++){
+    if(i%2===0) console.log("Even:", i);
+}
+
+// While sum
+let N = 5, sum = 0, i = 1;
+while(i<=N){
+    sum += i;
+    i++;
+}
+console.log("Sum:", sum);
+
+// Break & Continue
+for(let i=1;i<=10;i++){
+    if(i==5) continue;
+    if(i==8) break;
+    console.log(i);
+}
+
+
+console.log("===== SECTION 4 =====");
+
+// Function sum
+function add(a,b){
+    return a+b;
+}
+console.log(add(5,10));
+
+// Arrow function
+const addArrow = (a,b)=>a+b;
+console.log(addArrow(3,7));
+
+// Prime check
+function isPrime(n){
+    if(n<=1) return false;
+    for(let i=2;i<n;i++){
+        if(n%i==0) return false;
+    }
+    return true;
+}
+console.log("Prime:", isPrime(7));
+
+// Reverse string
+function reverse(str){
+    return str.split("").reverse().join("");
+}
+console.log(reverse("JavaScript"));
+
+// Return example
+function test(){
+    return;
+    console.log("Hello");
+}
+test();
+
+// Largest number
+function largest(arr){
+    return Math.max(...arr);
+}
+console.log(largest([10,45,23,89,12]));
+
+
+console.log("===== SECTION 5 =====");
+
+// Grade Program
+function getGrade(marks){
+    if(marks>=90) return "A";
+    else if(marks>=75) return "B";
+    else if(marks>=50) return "C";
+    else return "Fail";
+}
+
+let marks = 82;
+let grade = getGrade(marks);
+
+console.log("Marks:", marks);
+console.log("Grade:", grade);
+
+</script>
+
+</body>
+</html>
