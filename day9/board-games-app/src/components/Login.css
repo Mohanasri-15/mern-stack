@@ -1,0 +1,74 @@
+/* Full page center */
+.login-wrapper {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #1e3a5f, #2b5876);
+  
+  display: flex;
+  justify-content: center;  
+  align-items: center;   
+}
+
+/* Login card */
+.login-box{
+  background: #f9f9f9;
+  padding:40px;
+  border-radius: 20px;
+  width: 350px;
+  text-align: center;
+
+  box-shadow: 0px 15px 35px rgba(0,0,0,0.3);
+}
+
+/* Title */
+.welcome {
+  color: #e74c3c;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* Input fields */
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 14px;
+  margin: 12px 0;
+  border-radius: 30px;
+  border: none;
+  background: #e6e6e6;
+  font-size: 16px;
+}
+
+/* Remember section */
+.remember {
+  margin: 15px 0;
+  font-size: 18px;
+  color: #f10909;
+}
+
+/* Buttons container */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Sign Up button */
+.signup {
+  background: #3db8ff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  color: rgb(11, 10, 10);
+  cursor: pointer;
+}
+
+/* Login button */
+.login {
+  background: #66d19e;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  color: rgb(7, 5, 5);
+  cursor: pointer;
+}

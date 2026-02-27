@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background: #1e293b;
+  color: white;
+  padding: 15px 40px;
+}
+
+.nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px;
+  background: linear-gradient(to right, #3b82f6, #9333ea);
+  color: white;
+}
+
+.hero button {
+  padding: 12px 25px;
+  border: none;
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+
+.about, .skills, .projects, .contact {
+  padding: 60px;
+  text-align: center;
+}
+
+.skills ul {
+  list-style: none;
+}
+
+.card {
+  border: 1px solid #ddd;
+  margin: 20px auto;
+  padding: 20px;
+  width: 60%;
+}
